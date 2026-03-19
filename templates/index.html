@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Scam Detector</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<h1>🎤 AI Scam Call Detector</h1>
+
+<div class="container">
+
+  <button class="start" onclick="startMic()">🎤 Start</button>
+  <button class="stop" onclick="stopMic()">🛑 Stop</button>
+  <button class="reset" onclick="resetAll()">🔄 Reset</button>
+
+  <h3>Live Text:</h3>
+  <div id="liveText"></div>
+
+  <h3>Status:</h3>
+  <div id="liveResult"></div>
+
+  <h3>Risk:</h3>
+  <div id="riskScore"></div>
+
+  <h3>Reason:</h3>
+  <ul id="reasonList"></ul>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>

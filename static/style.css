@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.start { background: green; }
+.stop { background: red; }
+.reset { background: blue; }
+
+#liveText {
+  background: white;
+  color: black;
+  width: 70%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 8px;
+  min-height: 80px;
+}
+
+.safe { color: #00ff9c; }
+.suspicious { color: orange; }
+.scam { color: red; }
+
+#reasonList {
+  width: 50%;
+  margin: 10px auto;
+  text-align: left;
+  background: rgba(255,255,255,0.1);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#reasonList li {
+  margin: 5px 0;
+  padding-left: 5px;
+}
